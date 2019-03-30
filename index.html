@@ -13,17 +13,17 @@
 </head>
 <body>
 
-  <form class="max-length mega pad-t-2 pad-b-2 gutter" method="POST" action="…">
+  <form class="max-length mega pad-t-2 pad-b-2 gutter" method="post" action="…">
     <div>
       <h1 class="">Want to go to Mars?</h1>
 
       <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
-
+    </div>
       <fieldset class="">
-        <legend class="italic push-0">Personal details</legend>
+        <legend class="italic push-1-2">Personal details</legend>
         <div>
           <label class="" for="…">Name</label>
-          <input>
+          <input id="Name">
         </div>
         <div>
           <label for="age">Age</label>
@@ -34,8 +34,8 @@
         <input id="email">
         </div>
         <div>
-          <label>Physical fitness</label>
-          <select id="…">
+          <label for="physical fitness">Physical fitness</label>
+          <select id="physical fitness">
             <option>Super-human</option>
             <option>Fit as a fiddle</option>
             <option>Not terribly strong</option>
@@ -44,7 +44,7 @@
         </div>
         <div class="push-none">
           <label>Address</label>
-          <textarea id="" name="address" required>
+          <textarea id="text area" name="address" required>
           </textarea>
         </div>
       </fieldset>
@@ -52,7 +52,7 @@
         <legend class="italic push-0">Mission statement</legend>
         <div class="push-0">
           <label>Why do you want to go to Mars?</label>
-          <textarea id="" name="why" required>
+          <textarea id="text area" name="why" required>
           </textarea>
         </div>
       </fieldset>
